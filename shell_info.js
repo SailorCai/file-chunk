@@ -651,7 +651,7 @@ $('#add_custom_chk_contents').on('change','[name="disable_shell"]',function(){
 
 
 /*****初始化页面数据!init************************************/
-gs.func.initTimePicker();
+gs.func.initTimePicker(); 
 gs.func.setDefaultTime('q_from_time', 'q_to_time');
 shell_info.getGameInfo();
 
